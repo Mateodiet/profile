@@ -1,0 +1,99 @@
+h1{
+  font-size: 40px;
+  line-height: 35px;
+  color: #99A98F;
+  text-align: center;
+}
+img{
+  border-radius: 50%;
+}
+h2{
+  font-size: 25px;
+  line-height: 20px;
+}
+button{
+  background-color: #99A98F;
+  border: 0px;
+  color: white;
+  padding: 12px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #99A98F;
+  color: #FFF8DE;
+  text-align: center;
+  font-weight: 300;
+}
+
+a :hover {
+  text-decoration: none;
+  color: white;
+}
+
+.list-inline > li > a > button :hover {
+  text-decoration: none;
+  color: white;
+}
+
+.div1{
+  box-shadow: 0 30px 20px rgba(0,0,0,.1);
+  background: white;
+  border-radius: 35px;
+  padding: 1px;
+  width: 300px;
+  margin: 0 auto;
+}
+.card{
+  box-shadow: 0 30px 20px rgba(0,0,0,.1);
+  background: #C1D0B5;
+  border-radius: 25px;
+  padding: 0px;
+  border: 1px solid white;
+  margin: 15px;
+}
+
+.btn-green{
+  background-color: #99A98F;
+  border: 0px;
+  color: white;
+  padding: 12px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
+
+.btn-green:hover{
+  background-color: #C1D0B5;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
